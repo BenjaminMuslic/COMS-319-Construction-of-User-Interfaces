@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Turbocharger",
+      "rating": 4.3,
+      "description": "Extra boost = extra horsepower",
+      "price": 1299,
+      "image": "./assets/images/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Sport Tire",
+      "rating": 4.2,
+      "description": "Designed for fast situations. Extra grip",
+      "price": 229,
+      "image": "./assets/images/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sport Shocks",
+      "rating": 3.2,
+      "description": "Provides a sporty driving feel and performance",
+      "price": 99,
+      "image": "./assets/images/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Performance Brakes",
+      "rating": 4.8,
+      "description": "Extreme stopping power",
+      "price": 119,
+      "image": "./assets/images/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Performance Exhaust",
+      "rating": 4.5,
+      "description": "Loud car = fast car",
+      "price": 85,
+      "image": "./assets/images/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Spoiler",
+      "rating": 3.8,
+      "description": "Aerodynamics upgrade. Carbon fiber",
+      "price": 149,
+      "image": "./assets/images/6.webp"
+    }
+  ]
+  

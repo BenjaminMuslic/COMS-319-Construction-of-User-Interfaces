@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Civetta Scintilla",
+      "cost": 249999,
+      "type": "Hypercar",
+      "year": 2021,
+      "transmission": "Manual",
+      "horsepower": 875,
+      "image": "images/featured1.webp"
+    },
+    {
+      "name": "ETK K-Series",
+      "cost": 60999,
+      "type": "Hypercar",
+      "year": 2018,
+      "transmission": "Automatic",
+      "horsepower": 280,
+      "image": "images/featured2.webp"
+    },
+    {
+      "name": "Hirochi SBR4",
+      "cost": 79999,
+      "type": "EV",
+      "year": 2016,
+      "transmission": "Automatic",
+      "horsepower": 310,
+      "image": "images/featured3.webp"
+    }
+  ]

@@ -1,0 +1,26 @@
+{
+  "name": "fakeshop-api",
+  "version": "1.0.0",
+  "description": "Fake API for online store prototype",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Tania De La Torre - tanyalej@gmail.com",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.2",
+    "redis-rejson": "^1.0.0"
+  }
+}

@@ -1,0 +1,272 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish' , sans-serif;
+}
+#container
+{
+    height: 49vh;
+    width: 100%;
+    background: #eaf5ff;
+}
+#navbar
+{
+    height: 30%;
+    width: 90%;
+    clip-path: polygon(100% 0, 95% 50%, 50% 100%, 5% 50%, 0 0);
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background: navy;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul,ol
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px;
+}
+ul
+{
+    position: absolute;
+    left: 5%;
+}
+ol
+{
+    position: absolute;
+    right: 5%;
+}
+li
+{
+    margin: 0px 60px;
+    font-size: 23px;
+}
+li a
+{
+    text-decoration: none;
+    color: #e2e2e2;
+    transition: 0.5s;
+}
+li a:hover
+{
+    color: #000;
+}
+#logo
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 200px);
+}
+#logo img
+{
+    height: 400px;
+}
+#sideImg
+{
+    height: 400px;
+    width: 80px;
+    position: absolute;
+    top: 25%;
+    right: 32%;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+#sideImg img
+{
+    height: 300px;
+
+}
+
+#content{
+    height: 400px;
+    width: 750px;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 200px);
+}
+
+#content h2{
+    font-size: 100px;
+    color: navy;
+    font-weight: 900;
+
+}
+
+.button{
+    text-decoration: none;
+    font-size: 40px;
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: navy;
+    font-weight: 900;
+    margin-top: 30px;
+    color: white;
+}
+/* End of Header */
+
+.article h1:after{
+    content: '';
+    background-color: navy;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+
+}
+
+.article a{
+    list-style: none;
+    color: black;
+    outline: none;
+    text-decoration: none !important;
+}
+
+.article a:hover{
+    color: navy;
+    transition: 0.3s;
+}
+
+.article p{
+    font-size: 21px;
+    padding: 10px;
+
+}
+
+.article span{
+    color: navy;
+}
+
+.article .card{
+    padding: 5px;
+}
+
+#cost{
+    margin-left: 250px;
+    margin-top: -55px;
+    font-size: 20px;
+    color: orange;
+}
+
+#name{
+    padding: 10px;
+}
+
+small{
+    padding: 10px;
+}
+
+small a{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: white;
+    font-weight: 900;
+    margin-top: 30px;
+    text-decoration: none !important;
+    padding: 5px;
+}
+
+/*Contact*/
+
+.title-box{
+    margin-top: center;
+    margin: 100px auto 50px;
+}
+
+.profile-box{
+    width: 240px;
+    height: 240px;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 10px 10px rgba(115,193,255,0.1);
+    padding: 20px;
+}
+
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+}
+
+#contact{
+    height: 400px;
+    width: 1650px;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 200px);
+}
+
+#contact h2{
+    font-size: 100px;
+    color: navy;
+    font-weight: 900;
+
+}
+
+#contact h3{
+    font-size: 45px;
+    color: navy;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: navy;
+}
+
+.social-link{
+    background: navy;
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.social-link .fa{
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+/*Inventory*/
+
+
+
+/*Hours and Location Information*/
+
+#info_container
+{
+    height: 115vh;
+    width: 100%;
+    background: #eaf5ff;
+}
+
+#info{
+    height: 100px;
+    width: 1650px;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 200px);
+}
+
+#info h2{
+    font-size: 100px;
+    color: navy;
+    font-weight: 900;
+
+}

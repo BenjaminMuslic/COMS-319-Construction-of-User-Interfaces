@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Turbocharger",
+      "price": 1209.95,
+      "description": "STUUTUTUTUTUTU",
+      "image": "https://w7.pngwing.com/pngs/487/294/png-transparent-car-turbocharger-mitsubishi-lancer-evolution-engine-ritardo-del-turbo-car-exhaust-system-transport-engine-thumbnail.png",
+      "rating": { "rate": 3.9, "count": 120 }
+    },
+    {
+      "id": 2,
+      "title": "Intercooler Kit",
+      "price": 249.99,
+      "description": "You need a cooled car to be fast",
+      "image": "https://w7.pngwing.com/pngs/433/63/png-transparent-car-intercooler-radiator-turbocharger-supercharger-automotive-engine-parts-automotive-photography-accessories-thumbnail.png",
+      "rating": { "rate": 4.1, "count": 259 }
+    },
+    {
+      "id": 3,
+      "title": "Performance Brakes",
+      "price": 129.99,
+      "description": "Stopping is underated",
+      "image": "https://w7.pngwing.com/pngs/791/842/png-transparent-red-and-black-disk-brake-car-disc-brake-brembo-brake-pad-brake-driving-automobile-repair-shop-transport-thumbnail.png",
+      "rating": { "rate": 4.7, "count": 500 }
+    },
+    {
+      "id": 4,
+      "title": "Sport Shocks",
+      "price": 349.99,
+      "description": "Important for a smooth ride",  
+      "image": "https://w7.pngwing.com/pngs/413/879/png-transparent-car-shock-absorber-suspension-coil-spring-shock-absorbers-vehicle-transport-auto-part-thumbnail.png",
+      "rating": { "rate": 2.1, "count": 430 }
+    },
+    {
+      "id": 5,
+      "title": "Race Tires",
+      "price": 499,
+      "description": "Extra grippy",
+      "image": "https://w7.pngwing.com/pngs/345/806/png-transparent-car-nexen-tire-tread-kumho-tire-tires-vehicle-transport-pirelli-thumbnail.png",
+      "rating": { "rate": 4.6, "count": 400 }
+    },
+    {
+      "id": 6,
+      "title": "Performance Exhaust",
+      "price": 168,
+      "description": "Loud car = fun car!",
+      "image": "https://w7.pngwing.com/pngs/304/971/png-transparent-exhaust-system-car-muffler-exhaust-manifold-tire-automotive-exhaust-exhaust-system-car-automobile-repair-shop-thumbnail.png",
+      "rating": { "rate": 3.9, "count": 70 }
+    }
+  ]
+  

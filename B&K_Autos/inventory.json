@@ -1,0 +1,47 @@
+{
+    "cars": [
+        {
+            "img": "images/sale1.webp",
+            "name": "Ibishu Hopper",
+            "cost": "$15,999",
+            "type": "Off Road",
+            "features": ["2013", "Automatic", "4x4"]
+        },
+        {
+            "img": "images/sale2.webp",
+            "name": "Cherrier Vivace",
+            "cost": "$32,999",
+            "type": "Hybrid",
+            "features": ["2018", "Automatic", "Fuel Economy"]
+        },
+        {
+            "img": "images/sale3.webp",
+            "name": "ETK 800 Series",
+            "cost": "$25,999",
+            "type": "Station wagon",
+            "features": ["2019", "Automatic", "Large Capacity"]
+        },
+        {
+            "img": "images/sale4.webp",
+            "name": "Hirochi Sunburst",
+            "cost": "$10,999",
+            "type": "Sport Sedan",
+            "features": ["2011", "Automatic", "AWD"]
+        },
+        {
+            "img": "images/sale5.webp",
+            "name": "Civetta Bolide",
+            "cost": "$55,999",
+            "type": "American Classic",
+            "features": ["1974", "Manual", "Restored"]
+        },
+        {
+            "img": "images/sale6.webp",
+            "name": "Ibishu Pessima",
+            "cost": "$5,999",
+            "type": "Sedan",
+            "features": ["2001", "Automatic", "Leather Interior"]
+        }
+    ]
+}
+

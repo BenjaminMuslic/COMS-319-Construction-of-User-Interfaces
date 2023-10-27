@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zylab 5.13 Benjamin Muslic</title>
+  <style>
+  body { font-family: Calibri, sans-serif; font-size:
+    3em;
+  }
+  @keyframes mymove {
+  from {
+    left: 0px;
+      }
+
+    to {
+      left: 200px;
+    }
+  }
+
+  @keyframes moveFraction {
+    0%   {
+      transform: translate(-355px, 60px);
+      color:yellow;
+    }
+
+    50%  {
+      transform: translate(0px, 60px);
+    }
+
+    100% { transform: translate(0px, 0px);
+      color:red;
+    }
+  }
+
+  #answer {
+    color: white;
+    width: 100px;
+    position: relative;
+    animation: moveFraction 2s infinite;
+    animation-delay: 1s;
+   }
+
+  #question {
+    transition-delay: 0s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    transition: transform 0.6s ease-in-out 0s;
+
+  }
+  
+  #question:hover {
+    transform: scale(0.9);
+  }
+  span { display: inline-block;}
+</style>
+</head>
+<body>
+  <span id="question">Question: &frac14; + &frac12; =</span>
+  <span id="answer">&frac34;</span>
+</body>
+</html>
